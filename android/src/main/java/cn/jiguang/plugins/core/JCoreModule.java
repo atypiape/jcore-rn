@@ -43,6 +43,10 @@ public class JCoreModule extends ReactContextBaseJavaModule {
         JCollectionAuth.setAuth(reactContext,bool);
     }
     @ReactMethod
+    public void enableAutoWakeup(boolean bool) {
+        JCollectionAuth.enableAutoWakeup(reactContext,bool);
+    }
+    @ReactMethod
     public void testCountryCode(ReadableMap readableMap){
         if (readableMap == null) {
             return;
@@ -50,7 +54,7 @@ public class JCoreModule extends ReactContextBaseJavaModule {
         String code = readableMap.getString("code");
         if (TextUtils.isEmpty(code)) {
         } else {
-            JCoreInterface.testCountryCode(code);
+            JCoreInterface.testCountryCode(reactContext,code);
         }
     }
 
