@@ -18,7 +18,13 @@ yarn add jcore-rn
 
 ## SDK 版本
 
-使用 `Cocoapods` 导入 [JCore](https://cocoapods.org/pods/JCore) SDK，当前版本为 `4.4.2-noidfa`。
+### Android
+
+`Android` 使用 `mavenCentral` 自动集成 [JCore](https://mvnrepository.com/artifact/cn.jiguang.sdk/jcore) SDK，当前版本为 `4.x.x`。
+
+### iOS
+
+`iOS` 使用 `Cocoapods` 导入 [JCore](https://cocoapods.org/pods/JCore) SDK，当前版本为 `4.4.2-noidfa`。
 
 想使用 `idfa` 版本，可以修改自己项目下的 `node_modules/jcore-rn/ios/RCTJCore.podspec`，去掉 `-noidfa`：
 

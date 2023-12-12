@@ -21,5 +21,6 @@ android {
 
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation 'cn.jiguang.sdk:jcore:4.x.x'
   implementation 'com.facebook.react:react-native:+'
 }
