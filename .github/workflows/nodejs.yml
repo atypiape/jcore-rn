@@ -19,4 +19,4 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm publish
         env: # More info about the environment variables in the README
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}} # You need to set this in your repo settings
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}} # You need to set this in your repo settings
