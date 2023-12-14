@@ -20,7 +20,7 @@ yarn add jcore-rn
 
 ### Android
 
-`Android` 使用 `mavenCentral` 自动集成 [JCore](https://mvnrepository.com/artifact/cn.jiguang.sdk/jcore) SDK，当前版本为 `4.4.2`。
+`Android` 使用 `mavenCentral` 自动集成 [JCore](https://mvnrepository.com/artifact/cn.jiguang.sdk/jcore) SDK，当前版本为 `4.5.3`。
 
 ### iOS
 
