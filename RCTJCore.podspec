@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '7.0'
 
-  s.source             = { :git => "https://github.com/jpush/jcore-react-native.git", :tag => "#{s.version}" }
+  s.source             = { :git => "https://github.com/atypiape/jcore-rn.git", :tag => "#{s.version}" }
   s.source_files       = 'ios/RCTJCoreModule/*.{h,m}'
   s.preserve_paths     = "**/*.js"
   s.vendored_libraries = "ios/RCTJCoreModule/*.a"
