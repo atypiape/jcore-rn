@@ -30,18 +30,18 @@ yarn add jcore-rn
 
 ### Android
 
-`Android` 使用 `mavenCentral` 自动集成 [JCore](https://mvnrepository.com/artifact/cn.jiguang.sdk/jcore) SDK，当前版本为 `4.5.3`。
+`Android` 使用 `mavenCentral` 自动集成 [JCore](https://mvnrepository.com/artifact/cn.jiguang.sdk/jcore) SDK，当前版本为 `4.9.0`。
 
 ### iOS
 
-`iOS` 使用 `Cocoapods` 自动导入 [JCore](https://cocoapods.org/pods/JCore) SDK，当前版本为 `4.4.2-noidfa`。
+`iOS` 使用 `Cocoapods` 自动导入 [JCore](https://cocoapods.org/pods/JCore) SDK，当前版本为 `4.9.0-noidfa`。
 
 想使用 `idfa` 版本，可以修改自己项目下的 `node_modules/jcore-rn/ios/RCTJCore.podspec`，去掉 `-noidfa`：
 
 ```ruby
 # 去掉 `-noidfa`
-# s.dependency 'JCore', "4.4.2-noidfa"
-s.dependency 'JCore', "4.4.2"
+# s.dependency 'JCore', "4.9.0-noidfa"
+s.dependency 'JCore', "4.9.0"
 ```
 生成修复补丁：
 
