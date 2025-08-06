@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.source             = { :git => "https://github.com/atypiape/jcore-rn.git", :tag => "#{s.version}" }
   s.source_files       = 'ios/RCTJCoreModule/*.{h,m}'
   s.preserve_paths     = "**/*.js"
-  s.vendored_frameworks = "ios/RCTJCoreModule/*.xcframework"
   s.libraries          = 'z','resolv', 'sqlite3', 'c++.1'
   s.dependency 'React'
   s.dependency 'JCore', "5.1.0-noidfa"
