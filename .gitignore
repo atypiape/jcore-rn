@@ -11,3 +11,4 @@ build-res/
 .qshell
 *.qshell
 xcuserdata
+node_modules/
